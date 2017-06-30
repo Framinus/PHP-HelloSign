@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>PHP Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
   </head>
   <body>
+    <h2>
+      PHP HelloSign Example
+    </h2>
     <?php
       require_once 'vendor/autoload.php';
       require_once 'api_key.php';
