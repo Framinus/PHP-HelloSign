@@ -4,7 +4,12 @@ body {
   font-family: "Verdana";
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   color: #e6ffcc;
+}
+
+a {
+  color: #b1b6c9;
+  text-decoration: none;
 }
