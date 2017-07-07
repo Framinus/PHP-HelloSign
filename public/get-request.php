@@ -1,3 +1,6 @@
+<?php
+  require __DIR__ . '/../app/src/app.php';
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,9 +9,6 @@
   </head>
   <body>
     <?php
-      require_once '../vendor/autoload.php';
-      require_once '../api_key.php';
-
       $client = new HelloSign\Client($api_key);
 
       $signature_request = $client->getSignatureRequest($_GET["request"]);
