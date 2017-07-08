@@ -8,6 +8,8 @@
     <meta charset="utf-8">
     <title>PHP Test</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
   </head>
   <body>
     <?php
