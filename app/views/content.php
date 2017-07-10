@@ -17,5 +17,12 @@
     <li>
       <a href="send-request.php">Send Signature Request</a>
     </li>
+    <li>
+      <a href="send-with-template.php">Send Signature Request with Template</a>
+    </li>
+    <li>Download signature request: <form name="signature" action="download.php" method="get">
+      <input type="text" name="request" placeholder="signature request id">
+      <input type="submit">
+    </form></li>
   </ul>
 </div>
