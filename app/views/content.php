@@ -14,5 +14,8 @@
     <li>
       <a href="list.php">List signature requests</a>
     </li>
+    <li>
+      <a href="send-request.php">Send Signature Request</a>
+    </li>
   </ul>
 </div>
