@@ -17,5 +17,8 @@
     <li>
       <a href="send-request.php">Send Signature Request</a>
     </li>
+    <li>
+      <a href="send-with-template.php">Send Signature Request with Template</a>
+    </li>
   </ul>
 </div>
