@@ -1,7 +1,6 @@
 <?php
   require __DIR__ . '/../app/src/app.php';
   include('../app/views/header.php');
-  $client = new HelloSign\Client($api_key);
 
   $account = $client->getAccount();
   $info = $account->toArray();

@@ -11,5 +11,8 @@
       <input type="text" name="request" placeholder="signature request id">
       <input type="submit">
     </form></li>
+    <li>
+      <a href="list.php">List signature requests</a>
+    </li>
   </ul>
 </div>
