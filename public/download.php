@@ -12,8 +12,8 @@
   <body>
     <h3>Get Signature Request</h3>
     <?php
-      $client->getFiles($_GET["request"], 'request.pdf', HelloSign\SignatureRequest::FILE_TYPE_PDF);
-
+      $response = $client->getFiles($_GET["request"]);
+      echo $response->file_url;
        ?>
 
   </body>

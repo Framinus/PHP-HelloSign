@@ -25,4 +25,8 @@
       <input type="submit">
     </form></li>
   </ul>
+  <h4>Embedded Requests</h4>
+  <ul>
+    <li><a href="embedded-sig-request.php">Send Embedded Signature Request</a></li>
+  </ul>
 </div>
