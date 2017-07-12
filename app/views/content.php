@@ -25,9 +25,13 @@
       <input type="submit">
     </form></li>
   </ul>
-  <h4>Embedded Requests</h4>
+  <h4>Embedded Signing</h4>
   <ul>
     <li><a href="embedded-sig-request.php">Send Embedded Signature Request</a></li>
     <li><a href="embedded-template-request.php">Send Embedded Signature Request with Template</a></li>
+  </ul>
+  <h4>Embedded Templates</h4>
+  <ul>
+    <li><a href="embedded-template.php">Create embedded template</a></li>
   </ul>
 </div>
