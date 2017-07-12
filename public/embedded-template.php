@@ -22,7 +22,6 @@
       $response = $client->createEmbeddedDraft($request);
 
       $edit_url = $response->getEditUrl();
-      echo $edit_url;
 
       include('iframe.php');
     ?>
