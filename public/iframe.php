@@ -12,6 +12,8 @@
       $url = $sign_url;
     } elseif (isset($edit_url)) {
       $url = $edit_url;
+    } elseif (isset($claim_url)) {
+      $url = $claim_url;
     } ?>
 
     <script>

@@ -37,5 +37,9 @@
       <input type="text" name="template" placeholder="template id">
       <input type="submit">
     </form></li>
+    <li>Preview signature request with template: <form name="template" action="preview-template-request.php" method="get">
+      <input type="text" name="template" placeholder="template id">
+      <input type="submit">
+    </form></li>
   </ul>
 </div>
