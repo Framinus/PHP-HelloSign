@@ -33,5 +33,9 @@
   <h4>Embedded Templates</h4>
   <ul>
     <li><a href="embedded-template.php">Create embedded template</a></li>
+    <li>Edit template: <form name="template" action="edit-embedded-template.php" method="get">
+      <input type="text" name="template" placeholder="template id">
+      <input type="submit">
+    </form></li>
   </ul>
 </div>
