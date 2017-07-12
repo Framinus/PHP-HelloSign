@@ -28,5 +28,6 @@
   <h4>Embedded Requests</h4>
   <ul>
     <li><a href="embedded-sig-request.php">Send Embedded Signature Request</a></li>
+    <li><a href="embedded-template-request.php">Send Embedded Signature Request with Template</a></li>
   </ul>
 </div>
