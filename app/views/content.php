@@ -88,6 +88,4 @@
   <ul>
     <li><a href="embedded-request.php">Embedded Request</a></li>
   </ul>
-  <h4>
-  </h4>
 </div>
