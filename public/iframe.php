@@ -8,7 +8,7 @@
 
   </head>
   <body>
-    <?php if (defined($sign_url)) {
+    <?php if (isset($sign_url)) {
       $url = $sign_url;
     } else {
       $url = $edit_url;

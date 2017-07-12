@@ -26,9 +26,9 @@
 
       $embedded = $client->getEmbeddedSignUrl($signature_id);
       $sign_url = $embedded->getSignUrl();
-    ?>
 
-    <a href="iframe.php?url=<?php echo $sign_url ?>">Sign Document</a>
+      include('iframe.php');
+    ?>
 
   </body>
 </html>
