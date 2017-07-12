@@ -12,11 +12,11 @@
   </head>
   <body>
     <?php
-      $request = new HelloSign\SignatureRequest;
+      $request = new HelloSign\TemplateSignatureRequest;
       $request->enableTestMode();
-      $request->setTitle('Test with PHP App');
-      $request->addSigner($email, 'Jen', 0);
-      $request->addFileUrl('http://www.samplewords.com/wp-content/uploads/2010/08/General-Contract-Agreement.pdf');
+      $request->setTemplateId('ed91535b3da4700975d8ee56df2240dcb1fc023f');
+      $request->setSubject('Test Template with PHP App');
+      $request->setSigner('Client', $email, 'Jen');
 
       $embedded_request = new HelloSign\EmbeddedSignatureRequest($request, $client_id);
       $response = $client->createEmbeddedSignatureRequest($embedded_request);

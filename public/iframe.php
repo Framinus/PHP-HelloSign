@@ -8,7 +8,13 @@
 
   </head>
   <body>
-    <?php $url = $_GET['url'] . "&token=" . $_GET['token']; ?>
+    <?php if (isset($sign_url)) {
+      $url = $sign_url;
+    } elseif (isset($edit_url)) {
+      $url = $edit_url;
+    } elseif (isset($claim_url)) {
+      $url = $claim_url;
+    } ?>
 
     <script>
       HelloSign.init('513c9bcded6de4e70ffca114573540d9');
