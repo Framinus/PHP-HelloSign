@@ -12,7 +12,7 @@
       <input type="submit">
     </form></li>
     <li>
-      <a href="list.php">List signature requests</a>
+      <a href="list-sig-requests.php">List signature requests</a>
     </li>
     <li>
       <a href="send-request.php">Send Signature Request</a>
@@ -31,6 +31,7 @@
       <input type="text" name="template" placeholder="template id">
       <input type="submit">
     </form></li>
+    <li><a href="list-templates.php">List Templates</a></li>
   </ul>
   <h4>Embedded Signing</h4>
   <ul>
