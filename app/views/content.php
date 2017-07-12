@@ -42,4 +42,8 @@
       <input type="submit">
     </form></li>
   </ul>
+  <h4>Embedded Requesting</h4>
+  <ul>
+    <li><a href="embedded-request.php">Embedded Request</a></li>
+  </ul>
 </div>
