@@ -10,7 +10,7 @@
   <body>
     <?php if (isset($sign_url)) {
       $url = $sign_url;
-    } else {
+    } elseif (isset($edit_url)) {
       $url = $edit_url;
     } ?>
 
