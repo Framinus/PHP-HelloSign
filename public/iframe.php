@@ -20,14 +20,15 @@
       HelloSign.init('513c9bcded6de4e70ffca114573540d9');
       HelloSign.open({
           url: "<?php echo $url; ?>",
-          allowCancel: true,
-          uxVersion: 2,
           debug: true,
+          allowCancel: true,
           skipDomainVerification: true,
+          uxVersion: 2,
           messageListener: function(eventData) {
             console.log(eventData);
           }
         });
     </script>
+
   </body>
 </html>
