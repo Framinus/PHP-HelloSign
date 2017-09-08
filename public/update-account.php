@@ -9,13 +9,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>List Signature Requests</title>
+    <title>Update Account</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"></link>
   </head>
   <body>
-    <?php
-      $signature_requests = $client->getSignatureRequests(1);
-      print_r($signature_requests);
-    ?>
+    <p class="account">
+      <?php
+      $account->setCallbackUrl('www.testfromphp.com');
+      $response = $client->updateAccount($account);
+
+      print_r($response);
+      ?>
   </body>
 </html>

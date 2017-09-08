@@ -193,12 +193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/HelloFax/hellosign-php-sdk.git",
-                "reference": "413d208561f8c02597f4486b5628cb4c2ceb0a90"
+                "reference": "0c0d344b961be17b68a57e79a28fa25e481cc8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HelloFax/hellosign-php-sdk/zipball/413d208561f8c02597f4486b5628cb4c2ceb0a90",
-                "reference": "413d208561f8c02597f4486b5628cb4c2ceb0a90",
+                "url": "https://api.github.com/repos/HelloFax/hellosign-php-sdk/zipball/0c0d344b961be17b68a57e79a28fa25e481cc8a4",
+                "reference": "0c0d344b961be17b68a57e79a28fa25e481cc8a4",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
                 }
             ],
             "description": "This is the official PHP wrapper for HelloSign's API",
-            "time": "2017-06-30 00:41:57"
+            "time": "2017-09-06T20:32:41+00:00"
         },
         {
             "name": "psr/http-message",

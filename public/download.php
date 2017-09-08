@@ -12,8 +12,7 @@
   <body>
     <h3>Get Signature Request</h3>
     <?php
-      $response = $client->getFiles($_GET["request"]);
-      echo $response->file_url;
+      $response = $client->getFiles($_GET["request"], ".", HelloSign\SignatureRequest::FILE_TYPE_ZIP);
        ?>
 
   </body>

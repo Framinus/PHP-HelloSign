@@ -18,6 +18,7 @@
       $request->addFile('corgi.jpg');
       $request->setTitle('Embedded Template from PHP');
       $request->addSignerRole('Client');
+      $request->addMetadata('meta1', 'metavalue1');
 
       $response = $client->createEmbeddedDraft($request);
 

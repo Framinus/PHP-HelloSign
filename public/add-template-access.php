@@ -1,21 +1,21 @@
 <?php
   require __DIR__ . '/../app/src/app.php';
   include('../app/views/header.php');
-
-  $account = $client->getAccount();
-  $info = $account->toArray();
 ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>List Signature Requests</title>
+    <title>Add User Access to Template</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"></link>
   </head>
   <body>
+    <h3>Add User Access to Template</h3>
     <?php
-      $signature_requests = $client->getSignatureRequests(1);
-      print_r($signature_requests);
+        $response = $client->addTemplateUser($_GET["template"], $_GET["email"]);
+
+        print_r($response);
     ?>
+
   </body>
 </html>

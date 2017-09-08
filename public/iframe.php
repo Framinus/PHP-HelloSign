@@ -24,6 +24,7 @@
           allowCancel: true,
           skipDomainVerification: true,
           uxVersion: 2,
+          container: document.getElementById("embeddedhs"),
           messageListener: function(eventData) {
             console.log(eventData);
           }

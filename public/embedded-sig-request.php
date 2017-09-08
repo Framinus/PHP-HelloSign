@@ -11,12 +11,14 @@
 
   </head>
   <body>
+    <div id="embeddedhs">
+    </div>
     <?php
       $request = new HelloSign\SignatureRequest;
       $request->enableTestMode();
       $request->setTitle('Test with PHP App');
       $request->addSigner($email, 'Jen', 0);
-      $request->addFileUrl('http://www.samplewords.com/wp-content/uploads/2010/08/General-Contract-Agreement.pdf');
+      $request->addFile('corgi.jpg');
 
       $embedded_request = new HelloSign\EmbeddedSignatureRequest($request, $client_id);
       $response = $client->createEmbeddedSignatureRequest($embedded_request);

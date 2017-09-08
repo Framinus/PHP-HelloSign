@@ -1,21 +1,20 @@
+
 <?php
   require __DIR__ . '/../app/src/app.php';
   include('../app/views/header.php');
-
-  $account = $client->getAccount();
-  $info = $account->toArray();
 ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>List Signature Requests</title>
+    <title>Send Reminder</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"></link>
   </head>
   <body>
     <?php
-      $signature_requests = $client->getSignatureRequests(1);
-      print_r($signature_requests);
-    ?>
+      $response = $client->requestEmailReminder('f4e043c5ee1a5fb4ff2361f26295029532b5dd42', 'jen.young@hellosign.com', 'Jen');
+
+      print_r($response);
+     ?>
   </body>
 </html>

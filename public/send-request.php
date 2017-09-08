@@ -16,6 +16,7 @@
       $request->setTitle('Test with PHP App');
       $request->setSubject('I sent this with PHP!');
       $request->addSigner($email, 'Jen', 0);
+      $request->setSigningRedirectUrl('http://www.google.com');
       $request->addFileUrl('http://www.samplewords.com/wp-content/uploads/2010/08/General-Contract-Agreement.pdf');
       $response = $client->sendSignatureRequest($request);
 
