@@ -9,6 +9,15 @@
     <li>
       <a href="account-info.php">Get Account</a>
     </li>
+    <li>
+      <a href="update-account.php">Update Account</a>
+    </li>
+    <li>
+      <a href="create-account.php">Create Account</a>
+    </li>
+    <li>
+      <a href="verify-account.php">Verify Account</a>
+    </li>
   </ul>
 
   <h4>
@@ -38,6 +47,16 @@
         <input type="submit">
       </form>
     </li>
+    <li>
+      <a href="reminder.php">Send Reminder</a>
+    </li>
+    <li>
+      Cancel signature request:
+      <form name="signature" action="cancel.php" method="get">
+        <input type="text" name="request" placeholder="signature request id">
+        <input type="submit">
+      </form>
+    </li>
   </ul>
   <h4>
     Templates
@@ -51,6 +70,14 @@
     </li>
     <li>
       <a href="list-templates.php">List Templates</a>
+    </li>
+    <li>
+      Add User Access to Template:
+      <form name="template" action="add-template-access.php" method="get">
+        <input type="text" name="template" placeholder="template id"><br>
+        <input type="text" name="email" placeholder="email address">
+        <input type="submit">
+      </form>
     </li>
   </ul>
   <h4>Embedded Signing</h4>
